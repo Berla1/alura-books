@@ -6,7 +6,8 @@
 @import url(banner.css);
 @import url(carrossel.css);
 @import url(topicos.css);
-@import url(contato-footer.css);
+@import url(footer.css);
+@import url(contato.css);
 
 :root{
     --fonte-padrao: font-family: "Poppins", sans-serif;
