@@ -62,11 +62,8 @@
     background-clip: text;
 }
 
-.container__titulo{
-    display: none;
-}
 
-.opcoes{
+.opcoes, .container__titulo, .container__texto{
     display: none;
 }
 
@@ -121,5 +118,26 @@
     
     .opcoes__botao{
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+     .container__link{
+        color: var(--preto);
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+    }
+
+    .container__texto{
+        display: block;
+    }
+
+    .cabecalho{
+        padding: 1em;
+    }
+
+    .opcoes{
+        margin-right: auto;
     }
 }

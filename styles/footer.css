@@ -43,3 +43,15 @@
 
 
 }
+
+@media screen and (min-width: 1728px) {
+    .lista__rodape{
+        border-left: 1px solid var(--cinzinha); 
+        padding-left: 1em;
+        display: block;
+    }
+    
+    .rodape{
+        padding: 3em 0;
+    }
+}
