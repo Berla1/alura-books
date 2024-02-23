@@ -1,4 +1,5 @@
 .rodape{
+    display: flex;
     padding: 1.3em;
     text-align: left;
 }
@@ -9,7 +10,34 @@
     color: black;
 }
 
+.lista__rodape{
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
+    .rodape__texto{
+        font-size: 24px;
+    }
+
+    .lista__rodape{
+        display: flex;
+        flex-direction: column;
+        padding: 0 100px;
+    }
     
-    
+    .lista__rodape-titulo{
+        text-transform: uppercase;
+        color: var(--cinzinha);
+        font-weight: 400;
+        padding: 0 1em 1em 1em;
+    }
+
+    .lista__rodape-link{
+        text-decoration: none;
+        color: var(--cinza-escuro);
+    }
+
+    .lista__imagem{
+        width: 20%;
+    }
 }
